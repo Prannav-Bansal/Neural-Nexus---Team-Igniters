@@ -1,0 +1,21 @@
+{
+  "image_path": "C:\\Users\\dell\\AppData\\Local\\Temp\\tmphnopoxyi.jpg",
+  "predicted_disaster_type": "Human_Damage",
+  "predicted_severity_level": "low",
+  "confidence_score": 0.5146,
+  "top3_disaster_predictions": [
+    {
+      "label": "Human_Damage",
+      "confidence": 0.5146
+    },
+    {
+      "label": "Non_Damage",
+      "confidence": 0.232
+    },
+    {
+      "label": "Water_Disaster",
+      "confidence": 0.0849
+    }
+  ],
+  "gradcam_path": "outputs\\gradcam\\tmphnopoxyi_gradcam.png"
+}

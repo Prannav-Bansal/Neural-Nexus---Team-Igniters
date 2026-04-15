@@ -1,0 +1,21 @@
+{
+  "image_path": "C:\\Users\\dell\\AppData\\Local\\Temp\\tmp5jxci0am.jpeg",
+  "predicted_disaster_type": "Fire_Disaster",
+  "predicted_severity_level": "medium",
+  "confidence_score": 1.0,
+  "top3_disaster_predictions": [
+    {
+      "label": "Fire_Disaster",
+      "confidence": 1.0
+    },
+    {
+      "label": "Non_Damage",
+      "confidence": 0.0
+    },
+    {
+      "label": "Land_Disaster",
+      "confidence": 0.0
+    }
+  ],
+  "gradcam_path": "outputs\\gradcam\\tmp5jxci0am_gradcam.png"
+}

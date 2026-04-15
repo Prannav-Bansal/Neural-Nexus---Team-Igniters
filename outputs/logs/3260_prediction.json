@@ -1,0 +1,21 @@
+{
+  "image_path": "Comprehensive Disaster Dataset(CDD)\\CDD_Augmented\\Damaged_Infrastructure\\3260.jpg",
+  "predicted_disaster_type": "Damaged_Infrastructure",
+  "predicted_severity_level": "high",
+  "confidence_score": 0.8566,
+  "top3_disaster_predictions": [
+    {
+      "label": "Damaged_Infrastructure",
+      "confidence": 0.8566
+    },
+    {
+      "label": "Non_Damage",
+      "confidence": 0.0622
+    },
+    {
+      "label": "Land_Disaster",
+      "confidence": 0.0376
+    }
+  ],
+  "gradcam_path": "outputs\\gradcam\\3260_gradcam.png"
+}

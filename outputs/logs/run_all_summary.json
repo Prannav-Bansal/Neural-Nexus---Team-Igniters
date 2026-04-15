@@ -1,0 +1,189 @@
+{
+  "train_summary": {
+    "device": "cpu",
+    "num_classes": 6,
+    "num_severity_levels": 3,
+    "class_names": [
+      "Damaged_Infrastructure",
+      "Fire_Disaster",
+      "Human_Damage",
+      "Land_Disaster",
+      "Non_Damage",
+      "Water_Disaster"
+    ],
+    "severity_names": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "best_val_f1": 0.479398459927776,
+    "best_val_accuracy": 0.7475409836065574,
+    "train_samples": 12812,
+    "val_samples": 2745,
+    "test_samples": 2746
+  },
+  "evaluation": {
+    "disaster_metrics": {
+      "accuracy": 0.7432629278951202,
+      "precision": 0.573195036061829,
+      "recall": 0.450687371761513,
+      "f1": 0.47389363472552093
+    },
+    "severity_metrics": {
+      "accuracy": 0.7534595775673707,
+      "precision": 0.6411785646363363,
+      "recall": 0.5787314866853999,
+      "f1": 0.5987668106774359
+    },
+    "disaster_report": {
+      "Damaged_Infrastructure": {
+        "precision": 0.52,
+        "recall": 0.39661016949152544,
+        "f1-score": 0.45,
+        "support": 295.0
+      },
+      "Fire_Disaster": {
+        "precision": 0.7272727272727273,
+        "recall": 0.12698412698412698,
+        "f1-score": 0.21621621621621623,
+        "support": 189.0
+      },
+      "Human_Damage": {
+        "precision": 0.4489795918367347,
+        "recall": 0.4489795918367347,
+        "f1-score": 0.4489795918367347,
+        "support": 49.0
+      },
+      "Land_Disaster": {
+        "precision": 0.5304347826086957,
+        "recall": 0.45864661654135336,
+        "f1-score": 0.49193548387096775,
+        "support": 133.0
+      },
+      "Non_Damage": {
+        "precision": 0.8136067101584343,
+        "recall": 0.9331908070550508,
+        "f1-score": 0.8693054518297236,
+        "support": 1871.0
+      },
+      "Water_Disaster": {
+        "precision": 0.398876404494382,
+        "recall": 0.3397129186602871,
+        "f1-score": 0.3669250645994832,
+        "support": 209.0
+      },
+      "accuracy": 0.7432629278951202,
+      "macro avg": {
+        "precision": 0.573195036061829,
+        "recall": 0.450687371761513,
+        "f1-score": 0.47389363472552093,
+        "support": 2746.0
+      },
+      "weighted avg": {
+        "precision": 0.7243356499589433,
+        "recall": 0.7432629278951202,
+        "f1-score": 0.7152950193351816,
+        "support": 2746.0
+      }
+    },
+    "severity_report": {
+      "high": {
+        "precision": 0.5907692307692308,
+        "recall": 0.3602251407129456,
+        "f1-score": 0.44755244755244755,
+        "support": 533.0
+      },
+      "low": {
+        "precision": 0.8110273327049953,
+        "recall": 0.9198289684660609,
+        "f1-score": 0.8620085149010769,
+        "support": 1871.0
+      },
+      "medium": {
+        "precision": 0.5217391304347826,
+        "recall": 0.45614035087719296,
+        "f1-score": 0.48673946957878317,
+        "support": 342.0
+      },
+      "accuracy": 0.7534595775673707,
+      "macro avg": {
+        "precision": 0.6411785646363363,
+        "recall": 0.5787314866853999,
+        "f1-score": 0.5987668106774359,
+        "support": 2746.0
+      },
+      "weighted avg": {
+        "precision": 0.7322457837216831,
+        "recall": 0.7534595775673707,
+        "f1-score": 0.7348245755722189,
+        "support": 2746.0
+      }
+    },
+    "test_samples": 2746
+  },
+  "demo_predictions": [
+    {
+      "image_path": "Comprehensive Disaster Dataset(CDD)\\CDD_Augmented\\Non_Damage\\17875.jpg",
+      "predicted_disaster_type": "Non_Damage",
+      "predicted_severity_level": "low",
+      "confidence_score": 0.9897,
+      "top3_disaster_predictions": [
+        {
+          "label": "Non_Damage",
+          "confidence": 0.9897
+        },
+        {
+          "label": "Water_Disaster",
+          "confidence": 0.0032
+        },
+        {
+          "label": "Land_Disaster",
+          "confidence": 0.0022
+        }
+      ],
+      "gradcam_path": "outputs\\gradcam\\17875_gradcam.png"
+    },
+    {
+      "image_path": "Comprehensive Disaster Dataset(CDD)\\CDD_Augmented\\Non_Damage\\12689.jpg",
+      "predicted_disaster_type": "Non_Damage",
+      "predicted_severity_level": "low",
+      "confidence_score": 0.9258,
+      "top3_disaster_predictions": [
+        {
+          "label": "Non_Damage",
+          "confidence": 0.9258
+        },
+        {
+          "label": "Water_Disaster",
+          "confidence": 0.0351
+        },
+        {
+          "label": "Land_Disaster",
+          "confidence": 0.0159
+        }
+      ],
+      "gradcam_path": "outputs\\gradcam\\12689_gradcam.png"
+    },
+    {
+      "image_path": "Comprehensive Disaster Dataset(CDD)\\CDD_Augmented\\Damaged_Infrastructure\\3260.jpg",
+      "predicted_disaster_type": "Damaged_Infrastructure",
+      "predicted_severity_level": "high",
+      "confidence_score": 0.8566,
+      "top3_disaster_predictions": [
+        {
+          "label": "Damaged_Infrastructure",
+          "confidence": 0.8566
+        },
+        {
+          "label": "Non_Damage",
+          "confidence": 0.0622
+        },
+        {
+          "label": "Land_Disaster",
+          "confidence": 0.0376
+        }
+      ],
+      "gradcam_path": "outputs\\gradcam\\3260_gradcam.png"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "image_path": "C:\\Users\\dell\\AppData\\Local\\Temp\\tmpewj4sw8r.jpg",
+  "predicted_disaster_type": "Non_Damage",
+  "predicted_severity_level": "low",
+  "confidence_score": 0.6611,
+  "top3_disaster_predictions": [
+    {
+      "label": "Non_Damage",
+      "confidence": 0.6611
+    },
+    {
+      "label": "Water_Disaster",
+      "confidence": 0.1444
+    },
+    {
+      "label": "Human_Damage",
+      "confidence": 0.0878
+    }
+  ],
+  "gradcam_path": "outputs\\gradcam\\tmpewj4sw8r_gradcam.png"
+}

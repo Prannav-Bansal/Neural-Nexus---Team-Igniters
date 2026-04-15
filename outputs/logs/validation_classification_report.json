@@ -1,0 +1,51 @@
+{
+  "Damaged_Infrastructure": {
+    "precision": 0.9036697247706422,
+    "recall": 0.6700680272108843,
+    "f1-score": 0.76953125,
+    "support": 294.0
+  },
+  "Fire_Disaster": {
+    "precision": 0.8897058823529411,
+    "recall": 0.6402116402116402,
+    "f1-score": 0.7446153846153846,
+    "support": 189.0
+  },
+  "Human_Damage": {
+    "precision": 0.8695652173913043,
+    "recall": 0.8163265306122449,
+    "f1-score": 0.8421052631578947,
+    "support": 49.0
+  },
+  "Land_Disaster": {
+    "precision": 0.6875,
+    "recall": 0.7443609022556391,
+    "f1-score": 0.7148014440433214,
+    "support": 133.0
+  },
+  "Non_Damage": {
+    "precision": 0.9155206286836935,
+    "recall": 0.9967914438502674,
+    "f1-score": 0.9544290834613415,
+    "support": 1870.0
+  },
+  "Water_Disaster": {
+    "precision": 0.8484848484848485,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.7466666666666667,
+    "support": 210.0
+  },
+  "accuracy": 0.8965391621129326,
+  "macro avg": {
+    "precision": 0.8524077169472384,
+    "recall": 0.7557375351345571,
+    "f1-score": 0.7953581819907681,
+    "support": 2745.0
+  },
+  "weighted avg": {
+    "precision": 0.895477195016311,
+    "recall": 0.8965391621129326,
+    "f1-score": 0.8906698110082022,
+    "support": 2745.0
+  }
+}

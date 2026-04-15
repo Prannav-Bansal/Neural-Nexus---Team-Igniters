@@ -1,0 +1,21 @@
+{
+  "image_path": "Comprehensive Disaster Dataset(CDD)\\CDD_Augmented\\Non_Damage\\12689.jpg",
+  "predicted_disaster_type": "Non_Damage",
+  "predicted_severity_level": "low",
+  "confidence_score": 0.9258,
+  "top3_disaster_predictions": [
+    {
+      "label": "Non_Damage",
+      "confidence": 0.9258
+    },
+    {
+      "label": "Water_Disaster",
+      "confidence": 0.0351
+    },
+    {
+      "label": "Land_Disaster",
+      "confidence": 0.0159
+    }
+  ],
+  "gradcam_path": "outputs\\gradcam\\12689_gradcam.png"
+}

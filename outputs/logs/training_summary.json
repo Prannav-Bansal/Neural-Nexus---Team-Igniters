@@ -1,0 +1,23 @@
+{
+  "device": "cuda",
+  "num_classes": 6,
+  "num_severity_levels": 3,
+  "class_names": [
+    "Damaged_Infrastructure",
+    "Fire_Disaster",
+    "Human_Damage",
+    "Land_Disaster",
+    "Non_Damage",
+    "Water_Disaster"
+  ],
+  "severity_names": [
+    "high",
+    "low",
+    "medium"
+  ],
+  "best_val_f1": 0.8151362843744888,
+  "best_val_accuracy": 0.9085610200364299,
+  "train_samples": 12812,
+  "val_samples": 2745,
+  "test_samples": 2746
+}

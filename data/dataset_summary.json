@@ -1,0 +1,35 @@
+{
+  "raw_root": "Comprehensive Disaster Dataset(CDD)\\CDD_Augmented",
+  "label_source": "folder_based",
+  "num_classes": 6,
+  "classes": [
+    "Damaged_Infrastructure",
+    "Fire_Disaster",
+    "Human_Damage",
+    "Land_Disaster",
+    "Non_Damage",
+    "Water_Disaster"
+  ],
+  "class_distribution": {
+    "Damaged_Infrastructure": 1963,
+    "Fire_Disaster": 1260,
+    "Human_Damage": 325,
+    "Land_Disaster": 887,
+    "Non_Damage": 12470,
+    "Water_Disaster": 1398
+  },
+  "severity_distribution": {
+    "high": 3548,
+    "low": 12470,
+    "medium": 2285
+  },
+  "total_images": 18303,
+  "corrupt_images_removed": 0,
+  "sample_corrupt_images": [],
+  "image_modes": {
+    "RGB": 18303
+  },
+  "avg_width": 313.16,
+  "avg_height": 285.89,
+  "imbalance_ratio": 38.37
+}

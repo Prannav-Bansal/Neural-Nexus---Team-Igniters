@@ -1,0 +1,21 @@
+{
+  "image_path": "C:\\Users\\dell\\AppData\\Local\\Temp\\tmpq6x3d97b.jpg",
+  "predicted_disaster_type": "Water_Disaster",
+  "predicted_severity_level": "medium",
+  "confidence_score": 0.9917,
+  "top3_disaster_predictions": [
+    {
+      "label": "Water_Disaster",
+      "confidence": 0.9917
+    },
+    {
+      "label": "Land_Disaster",
+      "confidence": 0.0069
+    },
+    {
+      "label": "Fire_Disaster",
+      "confidence": 0.0011
+    }
+  ],
+  "gradcam_path": "outputs\\gradcam\\tmpq6x3d97b_gradcam.png"
+}

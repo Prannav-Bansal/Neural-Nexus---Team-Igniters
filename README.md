@@ -6,7 +6,7 @@ An AI model to classify disaster images and predict severity levels for faster e
 ## Result
 
 - Accuracy: **90.85%**
-- F1 Score: **0.815**
+- F1 Score: **0.835**
 
 ---
 
